@@ -16,7 +16,7 @@ axios(url)
         const articles = []
 
         $('// add the class here which you want to find ', html).each(function () {
-            const title = $(this).text()
+            // Fields you want to scrape
             const pageUrl = $(this).find('a').attr('href')
             articles.push({
                 title,
