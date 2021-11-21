@@ -19,7 +19,6 @@ axios(url)
             // Fields you want to scrape
             const pageUrl = $(this).find('a').attr('href')
             articles.push({
-                title,
                 pageUrl
             })
         })
